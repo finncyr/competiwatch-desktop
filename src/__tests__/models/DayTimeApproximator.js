@@ -43,13 +43,13 @@ it('returns "weekday" for Friday date', () => {
 })
 
 it('returns "morning" for morning time', () => {
-  const date = new Date(946731600000) // 7am CDT
+  const date = new Date('2018-08-10T07:00:00') // 7am CDT
   const actual = DayTimeApproximator.timeOfDay(date)
   expect(actual).toBe('morning')
 })
 
 it('returns "afternoon" for afternoon time', () => {
-  const date = new Date(1534702539736) // 1:15pm CDT
+  const date = new Date('2018-08-10T15:00:00') // 1:15pm CDT
   const actual = DayTimeApproximator.timeOfDay(date)
   expect(actual).toBe('afternoon')
 })
