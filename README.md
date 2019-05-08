@@ -1,6 +1,6 @@
 # Competiwatch Desktop
 
-[![Build Status](https://travis-ci.org/finncyr/competiwatch-desktop.svg?branch=master)](https://travis-ci.org/finncyr/competiwatch-desktop)
+[![Build Status](https://travis-ci.org/cheshire137/competiwatch-desktop.svg?branch=master)](https://travis-ci.org/cheshire137/competiwatch-desktop)
 
 **[Download the app](https://github.com/cheshire137/competiwatch-desktop/releases/latest)** - [see what's new](./CHANGELOG.md)
 
